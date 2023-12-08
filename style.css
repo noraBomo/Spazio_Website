@@ -30,14 +30,20 @@ body{
   font-family: 'Thasadith Regular';
 }
 
-/* .contact { 
+.contact { 
   color: black;
   position: absolute;
-  top: 50%;
-  width: 10%;
+  top: 80%;
+  left: 46%;
+  /* width: 10%; */
   text-align: center;
   background-color: #EFD780;
-} */
+  text-decoration: none;
+  font-family: 'Thasadith Regular';
+  font-size: 27px;
+  padding: 1rem;
+
+}
 
 .contact-link{
   background-color: #EFD780;
@@ -93,17 +99,15 @@ ul {
 }
 
 nav {
-  width: 100%;
+  width: auto;
   display: flex;
   justify-content: space-between;
-  overflow: auto;
   background: white;
   padding: 0 2rem;
 
 }
 
 li a {
-  width: 100px;
   display: block;
   padding: 20px 15px;
   text-decoration: none;
@@ -120,8 +124,13 @@ nav ul li {
   text-align: right;
 }
 
-.squares img{
-  height: 300px; 
+.squares{
+  overflow: hidden;
+}
+
+main img{
+  width: 100%;
+  height: auto;
 }
 /* 
 active,
@@ -147,7 +156,7 @@ h1 {
 */
 
 
-p {
+.first_paragraph {
   font-size: 60px;
   color: #3EBAE1;
   margin: 10%;
