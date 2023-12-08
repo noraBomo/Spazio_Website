@@ -1,3 +1,9 @@
+body{
+
+  width: 100%;
+
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -114,6 +120,10 @@ nav ul li {
   text-align: right;
 }
 
+.squares img{
+  height: 300px; 
+}
+/* 
 active,
 a:hover {
   color: #3EBAE1;
@@ -128,15 +138,13 @@ h1 {
 .slogan {
   text-align: center;
   line-height: 100px;
-}
+} */
 
 /*.hero{
   background-image: url("images/DSC_0225-2.jpg");
   height: 1000px;
 }
 */
-
-
 
 
 p {
@@ -155,7 +163,7 @@ p {
   font-family: 'Thasadith Regular';
 }
 
-.square {
+/* .square {
   width: 2000px;
   height: 750px;
   overflow: hidden;
@@ -189,4 +197,4 @@ p {
   top: 50%;
   left: 50%;
   color: white;
-}
+} */
