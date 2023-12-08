@@ -1,86 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* .background-image{ position:relative; width:100%;}*/
+.hero {
+  color: white;
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+  font-size: 64PX;
+  font-family: 'Krona One Regular';
+}
+
+.slogan {
+  color: white;
+  position: absolute;
+  top: 55%;
+  width: 100%;
+  text-align: center;
+  font-size: 80px;
+  font-family: 'Thasadith Regular';
+}
+
+/* .contact { 
+  color: black;
+  position: absolute;
+  top: 50%;
+  width: 10%;
+  text-align: center;
+  background-color: #EFD780;
+} */
+
+.contact-link{
+  background-color: #EFD780;
+  /* height: 0.2rem; */
+  padding: 0.4rem;
+}
+
+
 @font-face {
   font-family: 'Krona One Regular';
   font-style: normal;
   font-weight: normal;
   src: url('fonts/KronaOne-Regular.woff') format('woff');
-  }
+}
 
-  @font-face {
-    font-family: 'Thasadith Regular';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Thasadith Regular'), url('fonts/Thasadith-Regular.woff') format('woff');
-    }
-    
+@font-face {
+  font-family: 'Thasadith Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Thasadith Regular'), url('fonts/Thasadith-Regular.woff') format('woff');
+}
 
-    @font-face {
-    font-family: 'Thasadith Italic';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Thasadith Italic'), url('fonts/Thasadith-Italic.woff') format('woff');
-    }
-    
 
-    @font-face {
-    font-family: 'Thasadith Bold';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Thasadith Bold'), url('fonts/Thasadith-Bold.woff') format('woff');
-    }
-    
+@font-face {
+  font-family: 'Thasadith Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Thasadith Italic'), url('fonts/Thasadith-Italic.woff') format('woff');
+}
 
-    @font-face {
-    font-family: 'Thasadith Bold Italic';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Thasadith Bold Italic'), url('fonts/Thasadith-BoldItalic.woff') format('woff');
-    } 
+
+@font-face {
+  font-family: 'Thasadith Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Thasadith Bold'), url('fonts/Thasadith-Bold.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Thasadith Bold Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Thasadith Bold Italic'), url('fonts/Thasadith-BoldItalic.woff') format('woff');
+}
 
 ul {
-  padding: 0;
-    margin: 0 0 0 250px; 
-    list-style: none;
-    display: inline-block;
-  } 
+  padding: 0.5rem 1rem;
+  /* margin: 0 0 0 250px;  */
+  list-style: none;
+  display: inline-block;
+  margin-top: 01.5rem;
+}
 
-  nav{
-    width: 100%;
-    overflow: auto;
-    background: white;
-    
-  }
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  overflow: auto;
+  background: white;
+  padding: 0 2rem;
 
-  li{
-    float: left;
-  }
-  
-  li a {
-    width: 100px;
-    display:block;
-    padding: 20px 15px;
-    text-decoration: none;
-    font-family: 'Thasadith Regular';
-    color: black;
-    text-align: center;
-  }
+}
 
- .contact-link{
-    background-color: #EFD780;
-    padding: 15px 15px;
-  }
-  
-nav ul li{
+li a {
+  width: 100px;
+  display: block;
+  padding: 20px 15px;
+  text-decoration: none;
+  font-family: 'Thasadith Regular';
+  color: black;
+  text-align: center;
+}
+
+
+nav ul li {
   display: inline-block;
   line-height: 20px;
-  margin: 0 1px;
+  /* margin: 0 1px;  */
   text-align: right;
 }
 
-active,a:hover{
+active,
+a:hover {
   color: #3EBAE1;
 }
 
-h1{
+h1 {
   font-size: 200px;
   color: white;
   text-align: center;
@@ -97,60 +136,57 @@ h1{
 }
 */
 
-*{margin:0; padding: 0;}
-  /* .background-image{ position:relative; width:100%;}*/ 
-  .hero{ color: white; position:absolute; top:30%; width: 100%; text-align: center; font-size: 64PX; font-family: 'Krona One Regular';} 
-  .slogan{color:white; position:absolute; top:55%; width:100%; text-align: center; font-size: 80px;font-family: 'Thasadith Regular';} 
-  .contact{color:black; position:absolute; top:75%; width:10%; text-align: center; background-color: #EFD780; padding: 15px 15px; }
 
 
-p{
+
+p {
   font-size: 60px;
-  color:#3EBAE1; 
+  color: #3EBAE1;
   margin: 10%;
   text-align: center;
   font-family: 'Krona One Regular';
 }
 
-.p1{
+.p1 {
   font-size: 50px;
-  color:black; 
+  color: black;
   margin: 10%;
   text-align: center;
   font-family: 'Thasadith Regular';
 }
-.square{
+
+.square {
   width: 2000px;
   height: 750px;
   overflow: hidden;
 }
 
-.background-image{
+.background-image {
   width: 1200px;
   height: 1200px;
 }
 
-.second-big-image{
+.second-big-image {
   width: 1200px;
   height: 900px;
 }
 
-.contact2-link{
+.contact2-link {
   background-color: #EFD780;
   padding: 15px 15px;
   width: 10%;
 }
 
-.content-wrapper h3{
+.content-wrapper h3 {
   width: 100%;
   height: 1624px;
   background-color: #CEDACC;
-  
+
 }
 
-.text-wrapper p{
+.text-wrapper p {
   position: absolute;
   top: 50%;
   left: 50%;
-  color:white;
+  color: white;
 }
