@@ -184,6 +184,25 @@ h1 {
   width: 40%;
   height: auto;
 }
+
+.magazine{
+  text-align: center;
+}
+
+.magazine_images{
+  margin: 0 auto;
+}
+.san_francisco_chronicle{
+  width:40%;
+  display: block;
+}
+
+.vogue{
+  width: 20%;
+  display: block;
+
+}
+
 /* .square {
   width: 2000px;
   height: 750px;
