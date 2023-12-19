@@ -1,8 +1,76 @@
+@font-face {
+    font-family: 'Krona One Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/KronaOne-Regular.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'Thasadith Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Thasadith Regular'), url('../fonts/Thasadith-Regular.woff') format('woff');
+  }
+  
+  
+  @font-face {
+    font-family: 'Thasadith Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Thasadith Italic'), url('../fonts/Thasadith-Italic.woff') format('woff');
+  }
+  
+  
+  @font-face {
+    font-family: 'Thasadith Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Thasadith Bold'), url('../fonts/Thasadith-Bold.woff') format('woff');
+  }
+  
+  
+  @font-face {
+    font-family: 'Thasadith Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Thasadith Bold Italic'), url('../fonts/Thasadith-BoldItalic.woff') format('woff');
+  }
+
+
+
 .big_title{
-font-size: 60px;
+font-size: 27px;
 color: #3EBAE1;
 margin: 10%;
 text-align: center;
 font-family: 'Krona One Regular';
 }
+
+.p2{
+    font-size: 15px;
+    color: black;
+    margin: 10%;
+    font-family: 'Thasadith Regular';
+  }
+
+  h2{
+    
+    font-size: 2rem;
+    color: black;
+    font-family: 'Krona One Regular';
+  }
+
+  .contact-link{
+    background-color: #EFD780;
+    padding: 0.4rem;
+  }
+
+  .contact_button{
+    display: flex;
+    /* margin: auto; */
+  }
+
+  a{
+    text-decoration: none;
+  }
 
