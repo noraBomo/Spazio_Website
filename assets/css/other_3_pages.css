@@ -56,7 +56,8 @@ font-family: 'Krona One Regular';
       }
 }
 
-@media(min-width: 768px){
+@media(min-width: 768px)
+{
 
     .p2{
         font-size: 23px;
