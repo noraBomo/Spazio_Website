@@ -79,9 +79,29 @@
       margin: 10%;
       font-family: 'Thasadith Regular';
     }
-  
+
+    .contact-us-p2{
+        font-size: 15px;
+        color: black;
+        margin-left: 10% !important;
+        font-family: 'Thasadith Regular';
+      }
+
+      .contact-container{
+        font-size: 12px;
+        color: black;
+        margin-left: 10% !important;
+        font-family: 'Thasadith Regular';
+        margin-top: 10%;
+        display:flex;
+      }
+
+      .contacts{
+        padding-left: 2rem;
+      }
+
     /* Heading 2 */
-    h2 {
+    .h2 {
   
       font-size: 15px !important;
       color: black;
@@ -89,6 +109,13 @@
       padding-top: 3rem;
   
     }
+    .contact-us-h2{
+        font-size: 15px !important;
+        color: black;
+        font-family: 'Krona One Regular';
+        margin-left: 10%;
+        /* padding-top: 10rem; */
+      }
   
     /* Last Paragraph */
     .located {
@@ -102,7 +129,7 @@
     footer p {
       margin: 4rem;
       font-family: 'Thasadith Regular';
-      font-size: 15px;
+      font-size: 12px;
     }
   
       /* Contact Us Button on Page */
@@ -124,6 +151,9 @@
     }
   }
   
+  .main{
+    min-height: 85vh;
+  }
   
   /* iPad Screen */
   
@@ -143,6 +173,26 @@
       margin: 10%;
       font-family: 'Thasadith Regular';
     }
+
+      .contact-container{
+        font-size: 20px;
+        color: black;
+        margin-left: 10% !important;
+        font-family: 'Thasadith Regular';
+        margin-top: 10%;
+        display:flex;
+      }
+
+      .contacts{
+        padding-left: 2rem;
+      }
+
+    .contact-us-p2{
+        font-size: 30px;
+        color: black;
+        margin-left: 10% !important;
+        font-family: 'Thasadith Regular';
+      }
   
     .located {
       font-size: 30px;
@@ -158,7 +208,7 @@
       padding: 4rem;
     }
   
-    h2 {
+    .h2 {
   
       font-size: 30px !important;
       color: black;
@@ -166,6 +216,16 @@
       padding-top: 10rem;
   
     }
+
+    .contact-us-h2{
+        font-size: 25px !important;
+        color: black;
+        font-family: 'Krona One Regular';
+        margin-left: 10%;
+        /* padding-top: 10rem; */
+      }
+
+      
   
     .contact-btn {
       background-color: #EFD780;
@@ -178,7 +238,7 @@
     footer p {
         margin: 4rem;
         font-family: 'Thasadith Regular';
-        font-size: 12px;
+        font-size: 15px;
       }
   
   }
@@ -190,6 +250,26 @@
         color: black;
         margin: 10%;
         font-family: 'Thasadith Regular';
+      }
+
+      .contact-us-p2{
+        font-size: 40px;
+        color: black;
+        margin-left: 10% !important;
+        font-family: 'Thasadith Regular';
+      }
+
+      .contact-container{
+        font-size: 30px;
+        color: black;
+        margin-left: 10% !important;
+        font-family: 'Thasadith Regular';
+        margin-top: 10%;
+        display:flex;
+      }
+
+      .contacts{
+        padding-left: 2rem;
       }
   
       .located {
@@ -214,13 +294,20 @@
         padding: 6rem;
       }
   
-      h2 {
+      .h2 {
   
         font-size: 40px !important;
         color: black;
         font-family: 'Krona One Regular';
         padding-top: 10rem;
     
+      }
+      .contact-us-h2{
+        font-size: 40px !important;
+        color: black;
+        font-family: 'Krona One Regular';
+        margin-left: 10%;
+        /* padding-top: 10rem; */
       }
   
       .contact-btn {
@@ -234,7 +321,7 @@
       footer p {
         margin: 4rem;
         font-family: 'Thasadith Regular';
-        font-size: 15px;
+        font-size: 20px;
       }
   
     }
