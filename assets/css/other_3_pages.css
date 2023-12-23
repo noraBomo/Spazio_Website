@@ -96,6 +96,24 @@
         display:flex;
       }
 
+      .program-container{
+        font-size: 15px;
+        color: black;
+        margin-left: 10% !important;
+        font-family: 'Thasadith Regular';
+        margin-top: 10%;
+        display:flex;
+      }
+
+      .program-container p{
+        padding-left: .75rem;
+      }
+
+      .block_span{
+        display: block;
+        padding-bottom: 1rem;
+      }
+
       .contacts{
         padding-left: 2rem;
       }
@@ -168,7 +186,7 @@
       font-family: 'Krona One Regular';
     }
     .p2 {
-      font-size: 30px;
+      font-size: 20px;
       color: black;
       margin: 10%;
       font-family: 'Thasadith Regular';
@@ -181,6 +199,24 @@
         font-family: 'Thasadith Regular';
         margin-top: 10%;
         display:flex;
+      }
+     
+      .program-container{
+        font-size: 20px;
+        color: black;
+        margin-left: 10% !important;
+        font-family: 'Thasadith Regular';
+        margin-top: 10%;
+        display:flex;
+      }
+
+      .program-container p{
+        padding-left: .75rem;
+      }
+
+      .block_span{
+        display: block;
+        padding-bottom: 1rem;
       }
 
       .contacts{
@@ -246,7 +282,7 @@
   /* Screens larger than iPad */
   @media (min-width: 1081px){
       .p2 {
-        font-size: 40px;
+        font-size: 30px;
         color: black;
         margin: 10%;
         font-family: 'Thasadith Regular';
@@ -266,6 +302,24 @@
         font-family: 'Thasadith Regular';
         margin-top: 10%;
         display:flex;
+      }
+
+      .program-container{
+        font-size: 30px;
+        color: black;
+        margin-left: 10% !important;
+        font-family: 'Thasadith Regular';
+        margin-top: 10%;
+        display:flex;
+      }
+
+      .program-container p{
+        padding-left: .75rem;
+      }
+
+      .block_span{
+        display: block;
+        padding-bottom: 1rem;
       }
 
       .contacts{
@@ -314,8 +368,9 @@
         background-color: #EFD780;
         padding: 0.4rem 2rem;
         font-family: 'Thasadith Regular';
-        font-size: 50px;
+        font-size: 25px;
         color: black;
+
       }
 
       footer p {
