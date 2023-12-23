@@ -378,6 +378,23 @@
         font-family: 'Thasadith Regular';
         font-size: 20px;
       }
+
+        /* Carousel */
+    #carouselExampleIndicators {
+        max-width: 40%; 
+        margin: 10% auto; 
+    }
+
+    #carouselExampleIndicators {
+        max-width: 40%; 
+        margin: 10% auto; 
+    }
+
+    .carousel-item img {
+        width: 100%; 
+        height: auto;
+        border-radius: 15px;
+    }
   
     }
   
