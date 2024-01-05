@@ -11,46 +11,45 @@
 
 <body>
     <div class="container-fluid">
-
-        <!-- <nav>
-            <img src="images/SpazioItaliano_Logo_PSD.png" alt="logo" height="100rem">
-
-            <ul>
-                <li><a href="index.html">Home</a> </li>
-                <li><a href="our_program.html">Our program</a></li>
-                <li><a href="who_we_are.html">Who We Are</a></li>
-                <li><a href="contact_us.html" class="contact-link">Contact us</a></li>
-            </ul>
-
-        </nav> -->
-
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light px-5">
             <div class="container-fluid">
-              <a class="navbar-brand" href="index.html">
-                <img src="assets/images/SpazioItaliano_Logo_PSD.png" alt="logo" height="100rem">
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="modal" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                  <a class="nav-link" href="our_program.html">Our program</a>
-                  <a class="nav-link" href="who_we_are.html">Who We Are</a>
-                  <a class="nav-link contact-link" href="contact_us.html">Contact Us </a>
+                <!-- d-flex justify-content-center align-items-center -->
+                <div class="branding">
+                    <a class="navbar-brand " href="index.html">
+                        <img src="assets/images/SpazioItaliano_Logo_PSD.png" alt="logo" height="100rem">
+                    </a>
                 </div>
-              </div>
-            </div>
-          </nav>
+                <div class="nav-items">
 
-        <main>
-            <div class="squares">
-                <img src="assets/images/intro.jpg" alt="background image">
-            </div>
+    
+                    <button class="navbar-toggler" type="button" data-bs-toggle="modal"
+                        data-bs-target="#navbarNavModal" aria-controls="navbarNavModal"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-            <h1 class="hero"> Ciao! </h1>
-            <h2 class="slogan">SPAZIO DI GIOCO, VITA E CULTURA</h2>
-            <a class="contact" href="contact_us.html">Contact us</a>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            <a class="nav-link" href="our_program.html">Our program</a>
+                            <a class="nav-link" href="who_we_are.html">Who We Are</a>
+                            <a class="nav-link contact-link" href="contact_us.html">Contact Us </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+
+
+
+        <main class="container-fluid">
+            <section class="hero-section">
+                <h1 class="hero">Ciao!</h1>
+                <h2 class="slogan">SPAZIO DI GIOCO, VITA E CULTURA</h2>
+                <a class="contact" href="contact_us.html">Contact us</a>
+            </section>
+
 
 
             <h3 class="first_paragraph">An italian language center to learn culture and language in a fun, safe and
@@ -74,25 +73,59 @@
     <h3 class="rectangle"></h3>
     <div class="text-wrapper"></div> -->
 
-            <section class="italian-immersion">
-                <h3>Our Italian immersion education programs</h3>
-                <div class="italian-activities row">
+            <section class="italian-immersion row">
+                <h3 class="h3 text-center">Our Italian immersion <br> education programs</h3>
 
-                    <img src="assets/images/cutting_food.jpg" alt="italian programs">
-                    <div class="italian-activities-inner">
-                        <p>From Young children play based classes</p>
-                        <img src="images/coloring.jpg" alt="italian-activities">
+                <div class="italian-immersion-images">
+
+                    <!-- Div 1/2 -->
+                    <div class="italian-activities col">
+
+                        <!-- Inner Div 1/4 -->
+                        <div class="italian-activities-inner">
+
+
+                            <img src="assets/images/cutting_food.jpg" alt="italian programs">
+                        </div>
+
+                        <!-- Inner Div 2/4 -->
+                        <div class="italian-activities-inner">
+
+                            <img src="assets/images/coloring.jpg" alt="italian-activities">
+
+                            <p class=" paragraph2 "> To creative and fun after-school programs and much more...</p>
+                        </div>
+
                     </div>
-                    <div class="italian-activities-inner">
-                        <img src="assets/images/coloring_italia.png" alt="italian programs">
-                        <p> To creative and fun after-school programs and much more...</p>
+
+                    <!-- Div 2/2 -->
+                    <div class="italian-activities col">
+
+                        <!-- Inner Div 3/4 -->
+                        <div class="italian-activities-inner">
+                            <p class=" paragraph2 ">From play based classes <br> for young children</p>
+
+                            <img src="assets/images/coloring_italia.png" alt="italian programs">
+                        </div>
+
+                        <!-- Inner Div 4/4 -->
+                        <div class="italian-activities-inner">
+                            <!-- <p> To creative and fun after-school programs and much more...</p> -->
+                            <img src="assets/images/circle_time.jpg" alt="italian programs">
+                        </div>
+
                     </div>
-                    <img src="assets/images/circle_time.jpg" alt="italian programs">
                 </div>
 
-                <p class="p1">Learning activities that focus on personal <br> growth and education. </p>
-                <a class="about_us-link text-center m-5" href="our_program.html">Our programs</a>
+                <p class=" learning-activities-p1 p1">Learning activities that focus on personal <br> growth and
+                    education. </p>
+                <div class="contact_button">
+
+                    <a class="our-program-link text-center m-5" href="our_program.html">Our programs</a>
+
+                </div>
             </section>
+
 
             <!-- magazine section -->
             <section class="magazine">
@@ -113,37 +146,56 @@
                 <img src="assets/images/ari e giova.jpg" alt="Spazio testimonials">
 
                 <div class="parents_testimonials">
-                    <h3 class="testimonials_head">Testimonials</h3>
-                    <p class="p2">What families say about us? well, see it for yourself!</p>
+                    <h3 class="testimonials_head h3 text-center">Testimonials</h3>
+                    <p class="feedback text-center">What families say about us? well, see it for yourself!</p>
                     <div class="container">
 
 
-                        <div class="testimony">“My two daughters, now ages 16 and 13, have been going to Spazio Italiano
-                            since they were toddlers. There, they grew up immersed in Italian songs, stories, food and
-                            friendship. Through this immersive experience when they weee young they learned the Italian
-                            language through play and later through structured grammar classes. As they have grown older
-                            Spazio Italiano has become their second home. Ilaria Giannini is truly a gift to our family
+                        <div class="testimony paragraph2 ">“My two daughters, now ages 16 and 13, have been going to
+                            Spazio
+                            Italiano
+                            since they were toddlers. There, they grew up immersed in Italian songs, stories, food
+                            and
+                            friendship. Through this immersive experience when they weee young they learned the
+                            Italian
+                            language through play and later through structured grammar classes. As they have grown
+                            older
+                            Spazio Italiano has become their second home. Ilaria Giannini is truly a gift to our
+                            family
                             and our community.” <span><em>Kristina </em></span>
                         </div>
 
-                        <div class="testimony">“I have been taking my son Arlo to Spazio since he was 9 months old, he
-                            is now 5 and it’s one of his favorite places to be! It is such a special environment for us.
-                            It’s amazing to watch his Italian improve. Ilaria is so wonderful with all the children, she
-                            is quick to think and act and handle any situation that may arise. All the kids are drawn to
+                        <div class="testimony paragraph2">“I have been taking my son Arlo to Spazio since he was 9
+                            months old,
+                            he
+                            is now 5 and it’s one of his favorite places to be! It is such a special environment for
+                            us.
+                            It’s amazing to watch his Italian improve. Ilaria is so wonderful with all the children,
+                            she
+                            is quick to think and act and handle any situation that may arise. All the kids are
+                            drawn to
                             her warm and loving nature.” <span><em>Valentina </em></span>
                         </div>
 
-                        <div class="testimony">“My almost 3 year old son has thoroughly enjoyed Ilaria's group classes.
-                            She is an engaging and fun teacher who exposes the kids to one of the world's most beautiful
-                            languages through songs, books, and play. My son looks forward to seeing her every week, and
+                        <div class="testimony paragraph2">“My almost 3 year old son has thoroughly enjoyed Ilaria's
+                            group
+                            classes.
+                            She is an engaging and fun teacher who exposes the kids to one of the world's most
+                            beautiful
+                            languages through songs, books, and play. My son looks forward to seeing her every week,
+                            and
                             I've already signed him up for the fall!.” <span><em>Gina </em></span>
                         </div>
 
 
-                        <div class="testimony">“If you wish your children to learn Italian in a warm, caring
-                            environment, Spazio Italiano is the perfect place. Maestra Ilaria, a native of Rome, is not
-                            only knowledgeable of the language but is also versed in teaching techniques for children of
-                            different ages. Every morning my grandchildren attend Spazio, they are excited and eager to
+                        <div class="testimony paragraph2">“If you wish your children to learn Italian in a warm,
+                            caring
+                            environment, Spazio Italiano is the perfect place. Maestra Ilaria, a native of Rome, is
+                            not
+                            only knowledgeable of the language but is also versed in teaching techniques for
+                            children of
+                            different ages. Every morning my grandchildren attend Spazio, they are excited and eager
+                            to
                             go. Grazie, Maestra Ilaria!” <span><em>Nonna Alessandra </em></span>
                         </div>
 
@@ -155,30 +207,51 @@
                 <a class="about_us-link text-center m-5" href="contact_us.html">Contact us!</a>
 
             </section>
-
             <section class="location">
                 <h3 class="first_paragraph">Siamo Qui</h3>
                 <h4 class="p1">Where can you find us? </h4>
                 <p>
-                    We are located in <br> <span id="location"> North Beach, San Francisco</span> <br>1853 Powell st, San Francisco, CA 94133
+                    We are located in <br> <span id="location"> North Beach, San Francisco</span> <br>1853 Powell st,
+                    San Francisco, CA 94133
                 </p>
                 <h4 class="p1">Venite a trovarci presto!</h4>
-            
+
             </section>
 
-                <footer>
-                    <p class="text-center">designed and built by <span><a href="my website">nora.designco</a></span></p>
-                </footer>
-            
+            <footer>
+                <p class="text-center">designed and built by <span><a href="my website">nora.designco</a></span></p>
+            </footer>
+
 
 
 
         </main>
 
     </div>
+
+    <script>
+        // Screen Resizing Script 
+        document.addEventListener("DOMContentLoaded", function () {
+            function checkScreenWidth() {
+                var screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+
+                if (screenWidth <= 1080) {
+                    document.querySelector('.branding').classList.add('m-auto');
+                } else {
+                    document.querySelector('.branding').classList.remove('m-auto');
+                }
+            }
+
+            checkScreenWidth();
+
+            window.addEventListener('resize', checkScreenWidth);
+        });
+    </script>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+
 </body>
 
 </html>
