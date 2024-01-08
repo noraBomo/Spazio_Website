@@ -19,65 +19,13 @@ body{
 
 }
 
- /* Mobile Screen */
-  
- @media(max-width: 767px) {
-
-.hero-section {
-  background-image: url('../images/intro.jpg');
-  background-size: cover;
-  background-position: center;
-  height: 70vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-}
-
-.contact {
-  position: absolute;
-  bottom: 40%;
-  left: 50%;
-  transform: translateX(-50%);
-  text-decoration: none;
-  background-color: #EFD780;
-  color: #000;
-  border-radius: 5px;
-  padding: 0.4rem 2rem;
-  font-family: 'Thasadith Regular';
-  font-size: 27px;
-  color: black;
-}
-
-
-.hero {
-  color: white;
-  position: absolute;
-  top: 20%;
-  width: 100%;
-  text-align: center;
-  font-size: 64px;
-  font-family: 'Krona One Regular';
-}
-
-.slogan {
-  color: white;
-  /* position: absolute; */
-  /* top: 60%; */
-  width: 100%;
-  text-align: center;
-  font-size: 80px;
-  font-family: 'Thasadith Regular';
-}
- }
-
+ 
    /* iPad Screen */
   
    @media screen and (min-width: 768px) and (max-width: 1080px) {
 
     .hero-section {
-      background-image: url('../images/intro.jpg');
+      background-image: url('../images/hero_4phone.png');
       background-size: cover;
       background-position: center;
       height: 100vh;
@@ -125,6 +73,62 @@ body{
     }
 
    }
+
+
+   /* Mobile Screen */
+  
+ @media(max-width: 767px) {
+
+  .hero-section {
+    background-image: url('../images/hero_4phone.png');
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+  
+  .contact {
+    position: absolute;
+    bottom: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-decoration: none;
+    background-color: #EFD780;
+    color: #000;
+    border-radius: 5px;
+    padding: 0.4rem 2rem;
+    font-family: 'Thasadith Regular';
+    font-size: 27px;
+    color: black;
+  }
+  
+  
+  .hero {
+    color: white;
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    text-align: center;
+    font-size: 64px;
+    font-family: 'Krona One Regular';
+  }
+  
+  .slogan {
+    color: white;
+    /* position: absolute; */
+    /* top: 60%; */
+    width: 100%;
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Thasadith Regular';
+  }
+   }
+
+   
 /* Screens larger than iPad */
   @media (min-width: 1081px){ 
     .hero-section {
@@ -333,19 +337,19 @@ main img{
 }
 
 .san_francisco_chronicle {
-  width: 90%;
+  width: 50%;
   display: block;
 }
 
 .vogue {
-  width: 40%;
+  width: 20%;
   display: block;
 }
 
 .bambini {
   font-size: 70px;
   font-weight: 700 !important;
-  font-family: 'Krona One ' 'Krona One Regular';
+  font-family: 'Krona One ' 'Krona One Regular' !important;
 }
 
 .feedback {
@@ -358,7 +362,8 @@ main img{
 
 .parents_testimonials {
   background-color: #CEDACC;
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
 }
 
 .testimony {
@@ -374,5 +379,27 @@ main img{
 
 }
 
+.feedback{
+  font-size: 55px;
+  color: black;
+  margin: 10%;
+  text-align: center;
+  font-family: 'Thasadith Regular';
+}
 
+.about_us-link{
+  background-color: #EFD780;
+  padding: 0.4rem 2rem;
+  font-family: 'Thasadith Regular';
+  font-size: 40px;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: center;
 
+}
+.about_us_div{
+  margin: 0 auto;
+}
